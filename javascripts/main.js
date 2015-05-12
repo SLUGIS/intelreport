@@ -127,16 +127,16 @@ function showInfo(data) {
           max: 5,
           valueFontColor: "black",
           levelColors: resourceLevelColors,
-          title: "Cuesta Camp"
+          title: "Cuesta Crew"
         });
 
         var gauge_venturacamp = new JustGage({
           id: "venturacamp",
           value: 0,
           min: 0,
-          max: 5,
+          max: 7,
           levelColors: resourceLevelColors,
-          title: "Ventura Camp"
+          title: "Ventura & Camarillo Crews"
         });
 
         /*var gauge_overhead = new JustGage({
