@@ -32,7 +32,7 @@ function init() {
 function getData(data) {
   /* DUTY */
   console.log("We have data!");
-  console.log(data);
+  //console.log(data);
   
   document.getElementById("dutychief").innerHTML = data[0].DUTY_CHIEF;
   document.getElementById("investigator").innerHTML = data[0].DUTY_INVESTIGATOR;
@@ -40,8 +40,13 @@ function getData(data) {
   document.getElementById("eccstaff").innerHTML = data[0].ECC_STAFF;
   document.getElementById("incidentmgmt").innerHTML = data[0].INCIDENT_MGMT_TEAM;
   document.getElementById("timestamp").innerHTML = data[0].TIMESTAMP;
+  
+  document.getElementById("inlandcoverage").innerHTML = data[0].B3411;
+  document.getElementById("coastalcoverage").innerHTML = data[0].B3412;
+  
+  //console.log(data[0]);
 
-    showInfo(data);
+  showInfo(data);
 }
 
 /* Populate gauge values */
@@ -203,7 +208,7 @@ function getWeatherState() {
     url: 'http://www.crh.noaa.gov/data/LOX/AFDLOX',
     type: 'GET',
     success: function(res) {
-        console.log(res.responseText);
+        //console.log(res.responseText);
         var weatherState = res.responseText;
 
         var title = weatherState.slice(
@@ -260,7 +265,7 @@ function getStaffingData(data, tabletop) {
     if (curEntry[columns[0] + " " + (i+1)] == "") 
       continue;
 
-    console.log("curentry "+ i + " is" + curEntry + " and size is " + size);
+    // console.log("curentry "+ i + " is" + curEntry + " and size is " + size);
     // Loop through columns and insert corresponding value
     for (var j = 0; j < columns.length; j++) {
 
@@ -283,9 +288,5 @@ function getStaffingData(data, tabletop) {
 
   if (sheetName == "Sheet2") {
     $("#staffPatternLastUpdated").html("Last Updated: " + curEntry["Last Updated"]);
-  }
-  
+  } 
 }
-
-
-
