@@ -288,5 +288,5 @@ function getStaffingData(data, tabletop) {
 
   if (sheetName == "Sheet2") {
     $("#staffPatternLastUpdated").html("Last Updated: " + curEntry["Last Updated"]);
-  } 
+  }
 }
