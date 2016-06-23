@@ -41,11 +41,17 @@ function getData(data, tabletop) {
   document.getElementById("incidentmgmt").innerHTML = data[0].INCIDENT_MGMT_TEAM;
   document.getElementById("timestamp").innerHTML = data[0].TIMESTAMP;
   
- 
-  
-  //console.log(data[0]);
   getInlandCoverage(data);
   getCoastalCoverage(data);
+  
+  if (document.getElementById("inlandcoverage").innerHTML == "Retrieving data...") {
+    document.getElementById("inlandcoverage").innerHTML = "Unknown"
+  }
+
+  if (document.getElementById("coastalcoverage").innerHTML == "Retrieving data...") {
+    document.getElementById("coastalcoverage").innerHTML = "Unknown"
+  }
+  
   showInfo(data);
 }
 
