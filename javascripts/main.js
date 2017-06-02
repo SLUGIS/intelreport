@@ -2,8 +2,8 @@
 function init() {
   /* Link to the public Google Sheet */
     //var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/14oY5jJboGdnBFSWEjKF7R_85afMFjzdyJKJIH9SPmeo/pubhtml?gid=1010805911&single=true';
-    var formatted_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1wz-6cFvzf8n_n49ht0-uyuPGa9P_yq9A-HY425Nv74g/pubhtml';
-    var staffingPatter_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1f9sS_5cnEDcOq_oXw2eqjCgCdDUPYK7vE3NQeMZD0CM/pubhtml';
+    var formatted_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Ni97nRS3EEHsI-ohYyXMXjxFEC9R_TwBUEvggZysWIQ/edit#gid=1187249035';
+    var staffingPatter_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Ni97nRS3EEHsI-ohYyXMXjxFEC9R_TwBUEvggZysWIQ/edit#gid=1236718392';
     Tabletop.init( { key: formatted_spreadsheet_url,
                      callback: getData,
                      debug: true,
@@ -309,7 +309,7 @@ function getWeatherState() {
   console.log("got weather state");
 
   $.ajax({
-    url: 'http://www.crh.noaa.gov/data/LOX/AFDLOX',
+    url: 'http://www.wrh.noaa.gov/total_forecast/getprod.php?afos=xxxafdlox&wfo=lox&version=0&font=120&new=0&toggle=dictionary',
     type: 'GET',
     success: function(res) {
         //console.log(res.responseText);
