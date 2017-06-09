@@ -59,47 +59,47 @@ function getInlandCoverage(data) {
   
   // this is ugly... sorry
   
-  if (data[1].B3409 == "INLAND") {
+  if (data[0].B3409 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3409";
   }
   
-  if (data[1].B3411 == "INLAND") {
+  if (data[0].B3411 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3411";
   }
   
-  if (data[1].B3412 == "INLAND") {
+  if (data[0].B3412 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3412";
   }
   
-  if (data[1].B3413 == "INLAND") {
+  if (data[0].B3413 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3413";
   }
   
-  if (data[1].B3414 == "INLAND") {
+  if (data[0].B3414 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3414";
   }
   
-  if (data[1].B3415 == "INLAND") {
+  if (data[0].B3415 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3415";
   }
   
-  if (data[1].B3416 == "INLAND") {
+  if (data[0].B3416 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3416";
   }
   
-  if (data[1].B3418 == "INLAND") {
+  if (data[0].B3418 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3418";
   }
   
-  if (data[1].B3419 == "INLAND") {
+  if (data[0].B3419 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3419";
   }
   
-  if (data[1].B3420 == "INLAND") {
+  if (data[0].B3420 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3420";
   }
   
-  if (data[1].B3422 == "INLAND") {
+  if (data[0].B3422 == "INLAND") {
     document.getElementById("inlandcoverage").innerHTML = "B3422";
   }
 }
@@ -108,47 +108,47 @@ function getCoastalCoverage(data) {
   
   // this is ugly... sorry
   
-  if (data[1].B3409 == "COASTAL") {
+  if (data[0].B3409 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3409";
   }
   
-  if (data[1].B3411 == "COASTAL") {
+  if (data[0].B3411 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3411";
   }
   
-  if (data[1].B3412 == "COASTAL") {
+  if (data[0].B3412 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3412";
   }
   
-  if (data[1].B3413 == "COASTAL") {
+  if (data[0].B3413 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3413";
   }
   
-  if (data[1].B3414 == "COASTAL") {
+  if (data[0].B3414 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3414";
   }
   
-  if (data[1].B3415 == "COASTAL") {
+  if (data[0].B3415 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3415";
   }
   
-  if (data[1].B3416 == "COASTAL") {
+  if (data[0].B3416 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3416";
   }
   
-  if (data[1].B3418 == "COASTAL") {
+  if (data[0].B3418 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3418";
   }
   
-  if (data[1].B3419 == "COASTAL") {
+  if (data[0].B3419 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3419";
   }
   
-  if (data[1].B3420 == "COASTAL") {
+  if (data[0].B3420 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3420";
   }
   
-  if (data[1].B3422 == "COASTAL") {
+  if (data[0].B3422 == "COASTAL") {
     document.getElementById("coastalcoverage").innerHTML = "B3422";
   }
 }
