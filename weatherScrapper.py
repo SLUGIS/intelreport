@@ -11,7 +11,7 @@ except ImportError:
     from urllib.request import urlopen # py3k
 
 # Parse out weather information we need, stored in text
-url = "http://www.wrh.noaa.gov/eccda/eccda.php?ecczone=24"
+url = "http://www.wrh.noaa.gov/total_forecast/getprod.php?afos=xxxafdlox&wfo=lox&version=0&font=120&new=0&toggle=dictionary"
 soup = BeautifulSoup(urlopen(url))
 text = soup.body.pre.contents[0]
 
