@@ -337,7 +337,7 @@ function getWeatherState() {
 
 function getStaffingData(data, tabletop) {
   // Name of columns in record spreasheet
-  var columns = [
+  /*var columns = [
     "Req Number", 
     "Effective Date/Time", 
     "For",
@@ -392,5 +392,5 @@ function getStaffingData(data, tabletop) {
 
   if (sheetName == "Sheet2") {
     $("#staffPatternLastUpdated").html("Last Updated: " + curEntry["Last Updated"]);
-  }
+  }*/
 }
