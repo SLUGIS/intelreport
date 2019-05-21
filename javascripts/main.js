@@ -11,7 +11,7 @@ function init() {
                      parseNumbers: true,
                      simpleSheet: true } );
 
-    /**/Tabletop.init( { key: staffingPatter_spreadsheet_url,
+    /*Tabletop.init( { key: staffingPatter_spreadsheet_url,
                      callback: getStaffingData,
                      wanted: ["Sheet2"],
                      debug: true,
@@ -23,7 +23,7 @@ function init() {
                      wanted: ["Sheet3"],
                      debug: true,
                      parseNumbers: true,
-                     simpleSheet: true });
+                     simpleSheet: true }); */
     
     console.log("about to get weather state!");
     getWeatherState();
