@@ -33,7 +33,7 @@ function getData(data, tabletop) {
   /* DUTY */
   console.log("We have data!");
   //console.log(data);
-  
+  /*
   document.getElementById("dutychief").innerHTML = data[0].DUTY_CHIEF;
   document.getElementById("investigator").innerHTML = data[0].DUTY_INVESTIGATOR;
   document.getElementById("eccofficer").innerHTML = data[0].ECC_DUTY_OFFICER;
@@ -51,7 +51,7 @@ function getData(data, tabletop) {
   if (document.getElementById("coastalcoverage").innerHTML == "Retrieving data...") {
     document.getElementById("coastalcoverage").innerHTML = "Unknown"
   }
-  
+  */
   showInfo(data);
 }
 
