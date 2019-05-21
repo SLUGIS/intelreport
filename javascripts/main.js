@@ -11,7 +11,7 @@ function init() {
                      parseNumbers: true,
                      simpleSheet: true } );
 
-    Tabletop.init( { key: staffingPatter_spreadsheet_url,
+    /*Tabletop.init( { key: staffingPatter_spreadsheet_url,
                      callback: getStaffingData,
                      wanted: ["Sheet2"],
                      debug: true,
@@ -24,7 +24,7 @@ function init() {
                      debug: true,
                      parseNumbers: true,
                      simpleSheet: true });
-
+    */
     console.log("about to get weather state!");
     getWeatherState();
 }
