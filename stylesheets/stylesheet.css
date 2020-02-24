@@ -49,7 +49,7 @@ table {
 Theme Styles
 *******************************************************************************/
 
-b { 
+b {
     font-style: bold;
 }
 
@@ -98,7 +98,7 @@ h6 {
   font-size: 16px;
 }
 
-i { 
+i {
     font-style: italic;
 }
 
@@ -442,7 +442,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121; 
+  background: #212121;
   /*background: #f2f2f2; */
 }
 #fireMap {
@@ -867,6 +867,10 @@ fieldset[disabled] .btn-link:focus {
 
 .glyphicon-fire:before {
   content: "\e104";
+}
+
+.glyphicon-camera:before {
+  content: "\e059";
 }
 
 .glyphicon-signal:before {
