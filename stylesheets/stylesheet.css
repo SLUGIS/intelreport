@@ -881,6 +881,10 @@ fieldset[disabled] .btn-link:focus {
   content: "\e032";
 }
 
+.glyphicon-random:before {
+  content: "\e122";
+}
+
 .glyphicon-tree-conifer:before {
   content: "\e199";
 }
